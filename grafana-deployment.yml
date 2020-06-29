@@ -22,7 +22,7 @@ spec:
             claimName: grafana-pvc
       containers:
         - name: grafana
-          image: anurag08/graf:v1
+          image: anurag08/grafana:v1
           imagePullPolicy: IfNotPresent
           volumeMounts: 
            - mountPath: "/var/lib/grafana"
